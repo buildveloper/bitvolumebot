@@ -3,7 +3,7 @@ import TelegramBot from 'node-telegram-bot-api';
 
 const app = express();
 app.use(express.json());
-const bot = new TelegramBot('8171699930:AAGioMc4CDR2m0eGiNriZfjO-GnL0wCGcEQ', { polling: false });
+const bot = new TelegramBot('8196019370:AAEhsPmWNCFBEOCaojWqqKiNdv9ce_K9pJQ', { polling: false });
 const subscribers = new Set();
 
 app.get('/', (req, res) => {
